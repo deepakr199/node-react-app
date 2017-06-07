@@ -1,0 +1,52 @@
+{
+  "sportEvents": [
+    {"id":"1","name":"Olympics",
+      "sports":"All Sports", "last_organised":"2016",
+      "place":"Rio" },
+    {"id":"2","name":"Football World Cup",
+      "sports":"Football", "last_organised":"2014",
+      "place":"Brazil" },
+    {"id":"3","name":"Champions League Football",
+      "sports":"Football", "last_organised":"2017",
+      "place":"Cardiff" },
+    {"id":"4","name":"Tour de France",
+      "sports":"Cycling", "last_organised":"2017",
+      "place":"France" },
+    {"id":"5","name":"Wimbledon",
+      "sports":"Tennis", "last_organised":"2017",
+      "place":"Wimbledon" },
+    {"id":"6","name":"French Open",
+      "sports":"Tennis", "last_organised":"2017",
+      "place":"Paris" },
+    {"id":"7","name":"Australian Open",
+      "sports":"Tennis", "last_organised":"2017",
+      "place":"Melbourne" },
+    {"id":"8","name":"US Open",
+      "sports":"Tennis", "last_organised":"2017",
+      "place":"New York" }
+  ],
+  "1": {
+    "id":"1","name":"Olympics", "sports":"All Sports", "last_organised":"2016", "place":"Rio"
+  },
+  "2": {
+    "id":"2","name":"Football World Cup", "sports":"Football", "last_organised":"2014", "place":"Brazil"
+  },
+  "3": {
+    "id":"3","name":"Champions League Football", "sports":"Football", "last_organised":"2017", "place":"Cardiff"
+  },
+  "4": {
+    "id":"4","name":"Tour de France", "sports":"Cycling", "last_organised":"2017", "place":"France"
+  },
+  "5": {
+    "id":"5","name":"Wimbledon", "sports":"Tennis", "last_organised":"2017", "place":"Wimbledon"
+  },
+  "6": {
+    "id":"6","name":"French Open", "sports":"Tennis", "last_organised":"2017", "place":"Paris"
+  },
+  "7": {
+    "id":"7","name":"Australian Open", "sports":"Tennis", "last_organised":"2017", "place":"Melbourne"
+  },
+  "8": {
+    "id":"8","name":"US Open", "sports":"Tennis", "last_organised":"2017", "place":"New York"
+  }
+}

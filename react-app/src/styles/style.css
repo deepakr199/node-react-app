@@ -1,0 +1,53 @@
+.row {
+  padding: 5px;
+  border-bottom: 1px solid black;
+  height: 25px;
+}
+
+.column {
+  padding: 5px;
+  width: 200px;
+  float: left;
+}
+
+.column-bold {
+  padding: 5px;
+  width: 200px;
+  float: left;
+  font-weight: bold;
+}
+
+.list-block {
+  width: 50%;
+  float: left;
+}
+
+.detail-block {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+
+.header {
+  display: block;
+  font-size: 1.5em;
+}
+
+.form-group {
+  height: 25px;
+}
+
+.label {
+  font-weight: bold;
+  width: 150px;
+  float: left;
+}
+
+.value {
+  width: 200px;
+  float: left;
+}
+
+body {
+  background-color: #9CFEC0;
+}

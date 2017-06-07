@@ -1,0 +1,27 @@
+{
+  "name": "node-app",
+  "description": "Node Backend Application",
+  "version": "1.0.0",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Deepak",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "koa": "^2.2.0",
+    "kcors": "^2.2.0",
+    "koa-compose": "^4.0.0",
+    "koa-router": "^7.2.0",
+    "koa-logger": "^3.0.0",
+    "asyncawait": "1.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.1"
+  },
+  "engines": {
+    "node": ">= 7.6"
+  }
+}

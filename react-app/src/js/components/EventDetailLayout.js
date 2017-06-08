@@ -10,15 +10,13 @@ export default class EventDetailLayout extends React.Component {
     }
   }
 
-  componentDidMount() {
-    if (this.props.id) {
-      getEvent(this.props.id).then(response => {
-        this.setState({
-          is_loaded: true,
-          event: response
-        })
+  componentWillReceiveProps(props) {
+    getEvent(props.id).then(response => {
+      this.setState({
+        is_loaded: true,
+        event: response
       })
-    }
+    })
   }
 
   render() {
